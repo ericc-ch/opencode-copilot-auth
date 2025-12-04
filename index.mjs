@@ -51,6 +51,10 @@ export async function CopilotAuthPlugin({ client }) {
             model.cost = {
               input: 0,
               output: 0,
+              cache: {
+                read: 0,
+                write: 0,
+              },
             };
           }
         }
