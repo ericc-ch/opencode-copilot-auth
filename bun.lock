@@ -1,16 +1,19 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "opencode-anthropic-auth",
       "devDependencies": {
-        "@opencode-ai/plugin": "latest",
+        "@opencode-ai/plugin": "^1.0.222",
       },
     },
   },
   "packages": {
-    "@opencode-ai/plugin": ["@opencode-ai/plugin@0.5.8", "", { "dependencies": { "@opencode-ai/sdk": "0.5.5" } }, "sha512-5YS/8WMnov0JIYlAT53ooJ65jYFlyTLkiqo4ToLUSFBKWBTvFUpx1pbreMZQjFMmY8vKF4uKgTEvwKg5mgCpUQ=="],
+    "@opencode-ai/plugin": ["@opencode-ai/plugin@1.0.222", "", { "dependencies": { "@opencode-ai/sdk": "1.0.222", "zod": "4.1.8" } }, "sha512-PiAIAUfMGuotEUExpxF11qLd+uBMnfpaLa0IdOP4J1DTEwrR5JCR097TouWy8O3zJqhwwlrxHUkojmw1WgVwoQ=="],
 
-    "@opencode-ai/sdk": ["@opencode-ai/sdk@0.5.5", "", {}, "sha512-LjFhG6glh2mDpvyX+NDGdO1hJjUn80jM7i4Fty5+XMmdeDlGRuEaZ1rlVc/g9bPw3IFihV5iihJejoJr8R+dPg=="],
+    "@opencode-ai/sdk": ["@opencode-ai/sdk@1.0.222", "", {}, "sha512-t92owHoFYhYlbi7RgOlor+gUkji7wUk3jm7gtzJQC3tJCYNMSEaPhHUYVtYwhsZVAIZBzdbeR8/h9tgSlYNofw=="],
+
+    "zod": ["zod@4.1.8", "", {}, "sha512-5R1P+WwQqmmMIEACyzSvo4JXHY5WiAFHRMg+zBZKgKS+Q1viRa0C1hmUKtHltoIFKtIdki3pRxkmpP74jnNYHQ=="],
   }
 }
