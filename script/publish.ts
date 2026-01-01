@@ -22,8 +22,8 @@ await $`git add package.json`;
 await $`git commit -m "Bump version to ${version}"`;
 await $`git push`;
 
-// Trigger GitHub workflow
-console.log(`Triggering publish workflow...`);
-await $`gh workflow run publish.yml -f bump="${bumpType}"`;
+// Install dependencies and publish to npm
+console.log("Publishing to npm...");
+await $`npm publish --access public`;
 
-console.log(`✓ Version bumped to ${version} and publish workflow triggered`);
+console.log(`✓ Version bumped to ${version} and published to npm`);

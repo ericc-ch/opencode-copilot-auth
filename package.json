@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "./index.mjs",
   "devDependencies": {
-    "@opencode-ai/plugin": "^1.0.222"
-  },
-  "dependencies": {}
+    "@opencode-ai/plugin": "^1.0.222",
+    "@types/bun": "^1.3.5"
+  }
 }
