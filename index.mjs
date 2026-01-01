@@ -16,7 +16,7 @@ export async function CopilotAuthPlugin({ client }) {
 
   function getUrls(domain) {
     return {
-      DEVICE_CODE_URL: `https://${domain}/login/device/co de`,
+      DEVICE_CODE_URL: `https://${domain}/login/device/code`,
       ACCESS_TOKEN_URL: `https://${domain}/login/oauth/access_token`,
       COPILOT_API_KEY_URL: `https://api.${domain}/copilot_internal/v2/token`,
     };
