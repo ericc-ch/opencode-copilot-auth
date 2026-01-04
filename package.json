@@ -1,6 +1,6 @@
 {
   "name": "@echristian/opencode-copilot-auth",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "./index.mjs",
   "devDependencies": {
     "@opencode-ai/plugin": "^1.0.222",
